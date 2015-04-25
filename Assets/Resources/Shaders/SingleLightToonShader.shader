@@ -61,9 +61,9 @@
 				else dotProd = 0.1;
 				
 				
-				float3 diffuseCol = _LightColor0.rgb * _Color.rgb * dotProd;
-				return float4(dotProd,dotProd,dotProd, 1.0);
-				//return float4(diffuseCol, 1.0);
+				float3 diffuseCol = _LightColor0.rgb * _Color.rgb * 2.0 * dotProd;
+				//return float4(dotProd,dotProd,dotProd, 1.0);
+				return float4(diffuseCol, 1.0);
 			}
 
 			ENDCG
