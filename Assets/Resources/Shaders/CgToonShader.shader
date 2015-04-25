@@ -3,11 +3,11 @@
       _Color ("Diffuse Color", Color) = (1,1,1,1) 
       _UnlitColor ("Unlit Diffuse Color", Color) = (0.5,0.5,0.5,1) 
       _DiffuseThreshold ("Threshold for Diffuse Colors", Range(0,1)) 
-         = 0.1 
+         = 0.5 
       _OutlineColor ("Outline Color", Color) = (0,0,0,1)
-      _LitOutlineThickness ("Lit Outline Thickness", Range(0,1)) = 0.1
+      _LitOutlineThickness ("Lit Outline Thickness", Range(0,1)) = 0.4
       _UnlitOutlineThickness ("Unlit Outline Thickness", Range(0,1)) 
-         = 0.4
+         = 0.8
       _SpecColor ("Specular Color", Color) = (1,1,1,1) 
       _Shininess ("Shininess", Float) = 10
    }
